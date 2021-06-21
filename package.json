@@ -1,0 +1,19 @@
+{
+  "name": "ignite-desafio-nodejs-serverless",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:Brxlx/ignite-desafio-nodejs-serverless.git",
+  "author": "Bruno Santos",
+  "license": "MIT",
+  "scripts": {
+    "dev": "serverless offline",
+    "deploy": "sls deploy -v"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@types/node": "^15.12.4",
+    "serverless-dynamodb-local": "^0.2.39",
+    "serverless-offline": "^7.0.0",
+    "typescript": "4.2.3"
+  }
+}
